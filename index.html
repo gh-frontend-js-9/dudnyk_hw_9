@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tamagochi</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+  <section class="difficult-level-section" id="diffLvlsec">
+    
+    <button id="easyLvl" class="btn difficult-level-section__btn"><span>Fluffy kitty</span><span>easy lvl</span></button>
+    <button id="hardLvl" class="btn difficult-level-section__btn"><span>Lazy pug</span><span>hard lvl</span></button>
+    
+  </section>
+
+  <section id= "mainGame" class="game">
+
+    <div class="game__time"><span id="game__timer"></span></div>
+
+    <div class="state-bars">
+      <div class="state-bars__row">
+        <span id="food"></span>
+        <meter class="state-bars__bar" id="food_bar" min="0" ></meter>
+      </div>
+      
+      <div class="state-bars__row">
+        <span id="clean"></span>
+        <meter class="state-bars__bar" id="clean_bar" min="0"></meter>
+      </div>
+
+      <div class="state-bars__row">
+        <span id="happiness"></span>
+        <meter class="state-bars__bar" id="happiness_bar" min="0"></meter>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button class="btn buttons__btn buttons__btn_size_m" id="eat">eat</button>
+      <button class="btn buttons__btn buttons__btn_size_m" id="wash">wash</button>
+      <button class="btn buttons__btn buttons__btn_size_m" id="run">run</button>
+    </div>
+
+  </section>
+
+  <section id="loseSection" class="lose-section">
+    <div class="lose-section__container">
+      <span class="lose-section__main-text">You lost</span>
+      <span class="lose-section__general-text">Try again, loser :)</span>
+      <button id="tryAgain"class="btn lose-section__btn">Ok</button>
+    </div>
+  </section>
+
+
+
+</body>
+<script src="js/script.js"></script>
+</html>

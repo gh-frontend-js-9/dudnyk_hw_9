@@ -1,0 +1,53 @@
+.game {
+  display: none;
+  height: 450px;
+  width: 700px;
+  @include center();
+  flex-direction: column;
+  justify-content: space-around;
+
+  &__time {
+    height: 5%;
+    width: 95%;
+    text-align: right;
+  }
+}
+
+.state-bars {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  &__row {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  &__bar {
+    width: 70%;
+    height: 50%;
+  }
+}
+
+.buttons {
+  height: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__btn {
+    flex-basis: 20%;
+    height: 40%;
+    
+    &_size_m {
+      font-size: 16px;
+      text-transform: uppercase;
+    }
+  }
+}

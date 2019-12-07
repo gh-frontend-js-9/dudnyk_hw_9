@@ -1,0 +1,36 @@
+.lose-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(179, 179, 179, 0.7);
+  
+  &__container {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  &__main-text {
+    font-size: 70px;
+    color: red;
+    margin-bottom: 10px;
+  }
+
+  &__general-text {
+    font-size: 24px;
+    margin: 10px;
+  }
+
+  &__btn {
+    width: 120px;
+    height: 40px;
+    background-color: red;;
+  }
+}

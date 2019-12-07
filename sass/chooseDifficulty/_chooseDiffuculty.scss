@@ -1,0 +1,16 @@
+.difficult-level-section {
+  width: 500px;
+  @include center();
+  display: flex;
+  justify-content: space-between;
+
+
+  &__btn {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,17 @@
+@mixin center() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.body {
+  font-family: 'Acme', sans-serif;
+  font-size: 18px;
+}
+
+.btn {
+  border: none;
+  border-radius: 3px;
+  background-color: #b3b3b3;
+}
