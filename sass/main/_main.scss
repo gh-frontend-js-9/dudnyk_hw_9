@@ -11,10 +11,13 @@
     width: 95%;
     text-align: right;
   }
+  &__heading {
+    text-align: center;
+  }
 }
 
 .state-bars {
-  height: 50%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,14 +39,15 @@
 }
 
 .buttons {
-  height: 25%;
+  height: 15%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 
   &__btn {
     flex-basis: 20%;
-    height: 40%;
+    height: 70%;
     
     &_size_m {
       font-size: 16px;

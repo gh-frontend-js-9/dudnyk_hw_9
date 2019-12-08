@@ -7,10 +7,11 @@
   border: none;
   border-radius: 3px;
   background-color: #b3b3b3;
+  cursor: pointer;
 }
 
 .difficult-level-section {
-  width: 500px;
+  width: 700px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -62,9 +63,12 @@
   width: 95%;
   text-align: right;
 }
+.game__heading {
+  text-align: center;
+}
 
 .state-bars {
-  height: 50%;
+  height: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,7 +101,7 @@
 }
 
 .buttons {
-  height: 25%;
+  height: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,11 +110,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .buttons__btn {
   -ms-flex-preferred-size: 20%;
       flex-basis: 20%;
-  height: 40%;
+  height: 70%;
 }
 .buttons__btn_size_m {
   font-size: 16px;
@@ -128,11 +134,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(179, 179, 179, 0.7);
+  background-color: rgba(10, 10, 10, 0.85);
 }
 .lose-section__container {
-  width: 400px;
-  height: 200px;
+  min-width: 70vw;
+  min-height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,9 +160,29 @@
 .lose-section__general-text {
   font-size: 24px;
   margin: 10px;
+  color: red;
 }
 .lose-section__btn {
-  width: 120px;
-  height: 40px;
+  min-width: 210px;
+  margin: 10px;
+  min-height: 50px;
   background-color: red;
 }
+
+/*
+        tryNew.addEventListener('click', () => {
+          loseSection.style.display = 'none';
+
+          if (this.tamagochi instanceof TamagochiFluffyKitty){
+            kitty.click();
+          } else if (this.tamagochi instanceof TamagochiLazyPug) {
+            pug.click();
+          } else {
+            ninja.click();
+          }
+        });
+
+        tryAgain.addEventListener('click', () => location.reload());
+        console.log("dead interval dead--------------------------")
+
+*/

@@ -3,3 +3,21 @@
 @import "chooseDifficulty/chooseDiffuculty";
 @import "main/main";
 @import "losesection/loseSecton";
+
+/*
+        tryNew.addEventListener('click', () => {
+          loseSection.style.display = 'none';
+
+          if (this.tamagochi instanceof TamagochiFluffyKitty){
+            kitty.click();
+          } else if (this.tamagochi instanceof TamagochiLazyPug) {
+            pug.click();
+          } else {
+            ninja.click();
+          }
+        });
+
+        tryAgain.addEventListener('click', () => location.reload());
+        console.log("dead interval dead--------------------------")
+
+*/
